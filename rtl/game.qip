@@ -1,0 +1,9 @@
+# CPU modules
+set_global_assignment -name QIP_FILE rtl/modules/T80/T80.qip
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/modules/fx68k/fx68k.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/modules/fx68k/fx68kAlu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/modules/fx68k/uaddrPla.sv
+
+# Sound modules
+set_global_assignment -name QIP_FILE rtl/modules/jtopl/target/quartus/jt26.qip
+set_global_assignment -name VERILOG_FILE rtl/modules/jtframe/hdl/sound/jtframe_mixer.v
