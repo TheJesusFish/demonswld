@@ -1,1 +1,8 @@
 .DS_Store
+db
+incremental_db
+*.qws
+build_id.v
+output_files
+jtag.cdf
+c5_pin_model_dump.txt
